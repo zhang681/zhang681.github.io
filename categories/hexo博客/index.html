@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-     枸杞@凌厉
+    hexo博客 |  枸杞@凌厉
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -42,151 +42,60 @@
     
       
     <main class="content on">
-      
-<section class="cover">
-    
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/cover10.jpg" alt="image frame" />
-    </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">枸杞@凌厉</a></h1>
-      <div id="subtitle-box">
-        
-        <span id="subtitle"></span>
-        
-      </div>
-      <div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="cover-learn-more">
-    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
-</section>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-
-
-<!-- Subtitle -->
-
-  <script>
-    try {
-      var typed = new Typed("#subtitle", {
-        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
-        startDelay: 0,
-        typeSpeed: 200,
-        loop: true,
-        backSpeed: 100,
-        showCursor: true
-      });
-    } catch (err) {
-      console.log(err)
-    }
-  </script>
-  
-<div id="main">
-  <section class="outer">
+      <section class="outer">
   
   
   <article class="articles">
     
     
+    <h1 class="page-type-title">hexo博客</h1>
     
     
-    <article
-  id="post-博客搭建"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
+  
+  
+  
+  
+  
+  
+  <div class="archives-wrap">
+    <div class="archive-year-wrap">
+      <a href="/archives/2019" class="archive-year">2019</a>
+    </div>
+    <div class="archives">
+      
+      <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2019/01/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="archive-article-date">
+  <time datetime="2019-01-29T14:58:56.000Z" itemprop="datePublished">01/29</time>
+</a>
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2019/01/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"
+  <a class="archive-article-title" href="/2019/01/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"
     >利用GitHub和HEXO免费搭建个人博客</a> 
 </h2>
  
 
     </header>
-     
-    <div class="article-meta">
-      <a href="/2019/01/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="article-date">
-  <time datetime="2019-01-29T14:58:56.000Z" itemprop="datePublished">2019-01-29</time>
-</a> 
+    
+      
   <div class="article-category">
     <a class="article-category-link" href="/categories/hexo%E5%8D%9A%E5%AE%A2/">hexo博客</a>
   </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><h2 id="1、完成Git和Nodejs的下载"><a href="#1、完成Git和Nodejs的下载" class="headerlink" title="1、完成Git和Nodejs的下载"></a>1、完成Git和Nodejs的下载</h2><p><a target="_blank" rel="noopener" href="https://git-scm.com/download/win">GIT官网下载</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用 git --version 查看是否安装成功</span><br></pre></td></tr></table></figure>
-<p><a target="_blank" rel="noopener" href="http://nodejs.org/download/">node.下载</a></p>
-<br>
 
-<h2 id="2、安装hexo"><a href="#2、安装hexo" class="headerlink" title="2、安装hexo"></a>2、安装hexo</h2><p><strong>1、利用 npm 命令即可安装。在任意位置点击鼠标右键，选择Git Bash</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g </span><br><span class="line">安装位置：C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo-cli\bin\hexo</span><br></pre></td></tr></table></figure>
-<p><strong>2、初始化hexo</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">本地新建文件夹blog用于存储文件</span><br><span class="line">在blog文件夹下输入 hexo init</span><br></pre></td></tr></table></figure>
-<p>初始化后的blog文件夹</p>
-<p><img src="/asset/hexoinit.bmp"></p>
-<br>
-
-<h2 id="3、发布到GITHUB"><a href="#3、发布到GITHUB" class="headerlink" title="3、发布到GITHUB"></a>3、发布到GITHUB</h2><p><strong>1、在github中创建一个名称为<font color=#ff0000> 用户名.github.io</font>的仓库</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注意: 在仓库中不要添加任何一个文件，readme文件也不要，原因是在提交到github时的分支为master，在创建了文件之后会产生main分支，这样的话在网页显示的时候就无法显示出master分支的文件</span><br></pre></td></tr></table></figure>
-<p><strong>2、配置_config.yml文件如下：</strong></p>
-<p><img src="/asset/deploy.bmp"></p>
-<p><strong>3、发布本地博客到github</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<br>
-
-<br>
-
-<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><h2 id="1、初始化hexo，发布，下载等出现连接超时问题"><a href="#1、初始化hexo，发布，下载等出现连接超时问题" class="headerlink" title="1、初始化hexo，发布，下载等出现连接超时问题"></a>1、初始化hexo，发布，下载等出现连接超时问题</h2><p><img src="/asset/timeout.bmp"></p>
-<p><font color=red>可能是网络的原因，可以尝试切换网络后重试</font></p>
-<h2 id="2、图片无法正常显示"><a href="#2、图片无法正常显示" class="headerlink" title="2、图片无法正常显示"></a>2、图片无法正常显示</h2><p><strong>原因</strong></p>
-<p>hexo框架只认识根目录下的source以及主题下的img，因此在typora上编辑文本正常显示，但是生成文件之后，无论是localhost:4000还是发布到网站上，都无法正常显示图片。</p>
-<p><strong>解决</strong></p>
-<p>将图片资源放入根目录下的source中，在添加图片时以*<em>/asset/</em>.jpg**的形式进行添加就可以在网页上正常进行显示，但这样在Typor中无法出现相应的图片，原因是和真实的图片路径不符，可以通过更改图像根目录的形式解决</p>
-<h2 id="3、-YML语法格式错误"><a href="#3、-YML语法格式错误" class="headerlink" title="3、.YML语法格式错误"></a>3、.YML语法格式错误</h2><p><img src="/asset/formaterror.bmp"></p>
-<p><strong><font color=red>:后少了空格</font></strong></p>
- 
-      <!-- reward -->
-      
-    </div>
     
-
-    <!-- copyright -->
     
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo%E5%BB%BA%E7%AB%99/" rel="tag">hexo建站</a></li></ul>
-
-    </footer>
   </div>
-
-    
- 
-    
 </article>
-
-    
-  </article>
+      
+      
+    </div>
+  </div>
+  
   
 
   
 </section>
-</div>
-
       <footer class="footer">
   <div class="outer">
     <ul>
