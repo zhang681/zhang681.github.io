@@ -2,8 +2,10 @@
 <search>
   <entry>
     <title>利用GitHub和HEXO免费搭建个人博客</title>
-    <url>/2019/01/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><h2 id="1、完成Git和Nodejs的下载"><a href="#1、完成Git和Nodejs的下载" class="headerlink" title="1、完成Git和Nodejs的下载"></a>1、完成Git和Nodejs的下载</h2><p><a href="https://git-scm.com/download/win">GIT官网下载</a></p>
+    <url>/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><h2 id="1、完成Git和Nodejs的下载"><a href="#1、完成Git和Nodejs的下载" class="headerlink" title="1、完成Git和Nodejs的下载"></a>1、完成Git和Nodejs的下载</h2><a id="more"></a>
+
+<p><a href="https://git-scm.com/download/win">GIT官网下载</a></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用 git --version 查看是否安装成功</span><br></pre></td></tr></table></figure>
 <p><a href="http://nodejs.org/download/">node.下载</a></p>
 <br>
@@ -22,6 +24,7 @@
 <p><img src="/asset/deploy.bmp"></p>
 <p><strong>3、发布本地博客到github</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p><img src="/asset/successd.bmp"></p>
 <br>
 
 <br>
